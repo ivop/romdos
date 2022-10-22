@@ -11,3 +11,4 @@ dd if=atr/formatted+dupr.atr \
    oflag=append conv=notrunc status=none \
    bs=1 skip=400
 
+diff -s atr/formatted+dupr.atr "$OUTPUT"
