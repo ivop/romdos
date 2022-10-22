@@ -5,7 +5,7 @@ atari800 -nopatch -nopatchall -xl -xlxe_rom romdos-xl-osb.rom -xl-rev custom -ca
 atari800 -nopatch -nopatchall -xl -xlxe_rom romdos-xl-osb.rom -xl-rev custom -cart roms/basicrevc.bin -cart-type 1 atr/formatted+dupr.atr
 
 
-atari800 -nopatch -nopatchall -xl -xlxe_rom romdos-xl-osb.rom -xl-rev custom -cart roms/basicrevc.bin -cart-type 1 bootcode.atr
+atari800 -nopatch -nopatchall -xl -xlxe_rom romdos-xl-osb.rom -xl-rev custom -cart roms/basicrevc.bin -cart-type 1 romdos-bootcode-dupr.atr
 
 
-atari800 -nopatch -nopatchall -xl -xlxe_rom romdos-xl-osb.rom -xl-rev custom -cart roms/basicrevc.bin -cart-type 1 singlesector.atr
+atari800 -nopatch -nopatchall -xl -xlxe_rom romdos-xl-osb.rom -xl-rev custom -cart roms/basicrevc.bin -cart-type 1 romdos-singlesector-dupr.atr
