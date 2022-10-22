@@ -79,10 +79,10 @@ density
    dta $01      ; $01 = SD, $02 = DD
 
 buffer_index
-    dta $FD      ; $fd for DD disks, $7d for SD disks
+    dta $7d      ; $fd for DD disks, $7d for SD disks
 
 ; drives info
-    dta $01,$01,$00,$00,$00,$00,$00,$00
+    dta $01,$00,$00,$00,$00,$00,$00,$00
     dta $52,$52,$D2,$D2,$D2,$D2,$D2,$D2
 
 ;    dta $4C,$06,$08
