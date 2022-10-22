@@ -36,7 +36,9 @@ __/__
 You need a proper Linux/Unix command line or perhaps WSL2 on Windows. Furthermore, you need mads to be able to assemble the 6502 source files.
   
 ---
-  
+
+### Boot Code
+
 Built from source ``romdos-bootcode-dupr.atr`` is binary identical to a disk formatted with DUPR written to it, like ``atr/formatted+dupr.atr``.
 
 $ ./build-bootcode-atr.sh   
