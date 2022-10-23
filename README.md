@@ -85,3 +85,7 @@ Booting ``atr/formatted+dupr.atr``, ``romdos-bootcode-dupr.atr`` and ``romdos-si
 
 ![](screenshots/booting-formatted-dupr-1.png)
 ![](screenshots/booting-formatted-dupr-2.png)
+
+Booting ``romdos-singlesector-dupr.atr`` without ROMDOS present
+  
+![](screenshots/no-romdos-found.png)
