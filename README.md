@@ -41,7 +41,7 @@ You need a proper Linux/Unix command line or perhaps WSL2 on Windows. Furthermor
 
 ### Boot Code
 
-Built from source ``romdos-bootcode-dupr.atr`` is binary identical to a disk formatted with DUPR written to it, like ``atr/formatted+dupr.atr``.
+Built from source ``romdos-bootcode-dupr.atr`` is binary identical to a disk formatted by RDOS with three boot sectors and DUPR.SYS written to it.
 
 $ ./build-bootcode-atr.sh   
 Writing object file...   
@@ -51,13 +51,14 @@ Files atr/formatted+dupr.atr and romdos-bootcode-dupr.atr are identical
 
 ---
  
-### Notes
+### Experimental Single Sector Boot Disk
   
 The experimental single sector boot disk seems to work like any other RDOS disk. Loading and saving files all works. That's good.
   
 There is one limitation, though.
-It is not possible to write DOS files to a newly formatted disk
-because the single sector boot code is not present in the original ROM, but the ROMDOS code writes its boot sector mostly from ROM.
+It is **NOT** possible to write DOS files to a newly formatted disk
+because the single sector boot code is not present in the original ROM.
+But the ROMDOS code writes its boot sector mostly from ROM.
 Hence the result is not bootable.
 
 Start new single sector disks by making a copy of ``romdos-singlesector-dupr.atr``.
