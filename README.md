@@ -1,4 +1,6 @@
-Archive of Atari 8-bit ROMDOS/RDOS related ROMs and boot disks, including disassembly and other experiments.
+### Atari 8-bit ROMDOS Archive
+
+Archive of Atari 8-bit ROMDOS/RDOS related ROMs and boot disks, including disassembly and new experiments.
 
 ---
 
@@ -33,7 +35,7 @@ __/__
   
 ### Tools
   
-You need a proper Linux/Unix command line or perhaps WSL2 on Windows. Furthermore, you need mads to be able to assemble the 6502 source files.
+You need a proper Linux/Unix command line or perhaps WSL2 on Windows. Furthermore, you need __mads__ to be able to assemble the 6502 source files.
   
 ---
 
@@ -68,3 +70,17 @@ Single sector disks only work with ROMDOS present. If it is not found, it will s
 
 * disect AUTORUN.SYS that is in romdos.atr
 * investigate supercart ATR
+
+---
+
+### Screenshots
+
+Booting ``atr/romdos.atr``
+
+![](screenshots/booting-romdos-atr-1.png)
+![](screenshots/booting-romdos-atr-2.png)
+
+Booting ``atr/formatted+dupr.atr``, ``romdos-bootcode-dupr.atr`` and ``romdos-singlesector-dupr.atr``
+
+![](screenshots/booting-formatted-dupr-1.png)
+![](screenshots/booting-formatted-dupr-2.png)
