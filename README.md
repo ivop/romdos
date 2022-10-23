@@ -61,9 +61,9 @@ because the single sector boot code is not present in the original ROM.
 But the ROMDOS code writes its boot sector mostly from ROM.
 Hence the result is not bootable.
 
-Start new single sector disks by making a copy of ``romdos-singlesector-dupr.atr``.
+Start new single sector boot disks by making a copy of ``romdos-singlesector-dupr.atr``.
   
-Single sector disks only work with ROMDOS present. If it is not found, it will show an error message on screen.
+Single sector boot disks only work with a ROMDOS ROM present. If it is not found, it will show an error message on screen.
   
 ---
 
