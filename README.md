@@ -62,3 +62,9 @@ Start new single sector disks by making a copy of ``romdos-singlesector-dupr.atr
   
 Single sector disks only work with ROMDOS present. If it is not found, it will show an error message on screen.
   
+---
+
+### TODO
+
+* disect AUTORUN.SYS that is in romdos.atr
+* investigate supercart ATR
