@@ -69,7 +69,7 @@ Single sector boot disks only work with a ROMDOS ROM present. If it is not found
 
 ### TODO
 
-* disect AUTORUN.SYS that is in romdos.atr
+* ~~disect AUTORUN.SYS that is in romdos.atr~~ AUTORUN.SYS is a serial R: handler for MyDOS
 * investigate supercart ATR
 
 ---
